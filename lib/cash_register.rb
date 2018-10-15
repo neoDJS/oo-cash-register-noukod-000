@@ -28,7 +28,6 @@ class CashRegister
     if(@discount == 0)
       "There is no discount to apply."
     else
-      puts @applying_discount
       "After the discount, the total comes to $#{self.total}."
     end
   end
